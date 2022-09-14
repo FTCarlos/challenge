@@ -1,0 +1,64 @@
+
+
+.App {
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+}
+
+.dynamicForm, .fieldForm{
+  flex-grow: 1;
+  border: 1px solid lightgray;
+}
+
+
+label, input, select, button{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fieldForm, .dynamicForm{
+  padding: 15px;
+}
+
+.fieldForm label, .fieldForm h2, .dynamicForm label, .dynamicForm legend{
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.fieldForm input, .fieldForm select, .dynamicForm input, .dynamicForm select{
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  /* outline: 1px solid lightblue; */
+  text-transform: capitalize;
+} 
+
+.fieldForm button, .dynamicForm button {
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.error {
+  color: #e74c3c
+}
+
+.field {
+  text-align: left;
+}
+
+.field {
+  margin-bottom: 20px;
+}
